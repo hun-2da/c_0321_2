@@ -16,7 +16,7 @@ char compare(int a, int b) {
 }
 void attach(float coef, int expon) {
 	if (next_n > MAX_NUMBER) {
-		fprintf(stderr, "Ç×ÀÇ °³¼ö°¡ ³Ê¹« ¸¹À¸\n");
+		fprintf(stderr, "í•­ì˜ ê°œìˆ˜ê°€ ë„ˆë¬´ ë§ìœ¼\n");
 		exit(1);
 	}
 	number[next_n].coef = coef;
